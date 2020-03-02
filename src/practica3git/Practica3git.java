@@ -17,8 +17,7 @@ public class Practica3git {
     public static void main(String[] args) {
         int edad = InputAsker.askInt("Cuantos años tienes?", 1, 120);
         edad = calcularTiempoExistencia(edad);
-        System.out.println("Llevas vivo " + edad + " dias");
-
+        System.out.println("Llevas vivo " + edad + " dias aproximadamente ya que no se tienen en cuenta los años bisiestos");
     }
 
     private static int calcularTiempoExistencia(int edad) {
